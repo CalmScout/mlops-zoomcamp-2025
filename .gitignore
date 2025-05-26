@@ -2,4 +2,5 @@ data/*
 data_preprocessed/*
 scripts/db/*
 scripts/mlruns/*
+scripts/artifacts/*
 
