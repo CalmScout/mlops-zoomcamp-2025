@@ -1,0 +1,13 @@
+services:
+  mage:
+    image: mageai/mageai:latest
+    container_name: mageai
+    ports:
+      - "6789:6789"
+    environment:
+      - USER_CODE_PATH=/home/src/homework_03
+    volumes:
+      # Mount the root project directory so the container sees everything
+      - ../../:/home/src
+    working_dir: /home/src/homeworks/03
+    command: mage start homework_03

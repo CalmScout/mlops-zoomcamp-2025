@@ -4,3 +4,4 @@ scripts/db/*
 scripts/mlruns/*
 scripts/artifacts/*
 
+mage_data/*
